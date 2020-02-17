@@ -15,6 +15,13 @@
 		54521F6123F98E7400F2AE02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54521F5F23F98E7400F2AE02 /* LaunchScreen.storyboard */; };
 		54521F6C23F98E7400F2AE02 /* EliminateWastePhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54521F6B23F98E7400F2AE02 /* EliminateWastePhoneTests.swift */; };
 		54521F7723F98E7500F2AE02 /* EliminateWastePhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54521F7623F98E7500F2AE02 /* EliminateWastePhoneUITests.swift */; };
+		546DE56C23FA8BFE0021B55B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DE56B23FA8BFE0021B55B /* CustomButton.swift */; };
+		546DE57123FA8C7E0021B55B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DE57023FA8C7E0021B55B /* MainViewController.swift */; };
+		546DE57823FA918D0021B55B /* Food1stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DE57723FA918D0021B55B /* Food1stViewController.swift */; };
+		546DE57A23FA919C0021B55B /* Urine1stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DE57923FA919C0021B55B /* Urine1stViewController.swift */; };
+		546DE57E23FA91C30021B55B /* Injection1stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DE57D23FA91C30021B55B /* Injection1stViewController.swift */; };
+		546DE58023FA91D90021B55B /* Emergency1stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DE57F23FA91D90021B55B /* Emergency1stViewController.swift */; };
+		546DE58223FA91EE0021B55B /* Fecal1stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DE58123FA91EE0021B55B /* Fecal1stViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		54521F7223F98E7500F2AE02 /* EliminateWastePhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EliminateWastePhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54521F7623F98E7500F2AE02 /* EliminateWastePhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliminateWastePhoneUITests.swift; sourceTree = "<group>"; };
 		54521F7823F98E7500F2AE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546DE56B23FA8BFE0021B55B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		546DE57023FA8C7E0021B55B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		546DE57723FA918D0021B55B /* Food1stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food1stViewController.swift; sourceTree = "<group>"; };
+		546DE57923FA919C0021B55B /* Urine1stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urine1stViewController.swift; sourceTree = "<group>"; };
+		546DE57D23FA91C30021B55B /* Injection1stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection1stViewController.swift; sourceTree = "<group>"; };
+		546DE57F23FA91D90021B55B /* Emergency1stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emergency1stViewController.swift; sourceTree = "<group>"; };
+		546DE58123FA91EE0021B55B /* Fecal1stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fecal1stViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +113,13 @@
 		54521F5323F98E7200F2AE02 /* EliminateWastePhone */ = {
 			isa = PBXGroup;
 			children = (
-				54521F5423F98E7200F2AE02 /* AppDelegate.swift */,
-				54521F5623F98E7200F2AE02 /* SceneDelegate.swift */,
-				54521F5823F98E7200F2AE02 /* ViewController.swift */,
+				54521F8423FA84B900F2AE02 /* InitialData */,
+				546DE56D23FA8C3A0021B55B /* MainPage */,
+				546DE57623FA8FE70021B55B /* Food */,
+				546DE57223FA8F730021B55B /* Urine */,
+				546DE57323FA8F870021B55B /* Fecal */,
+				546DE57423FA8F900021B55B /* Injection */,
+				546DE57523FA8F990021B55B /* Emergency */,
 				54521F5A23F98E7200F2AE02 /* Main.storyboard */,
 				54521F5D23F98E7400F2AE02 /* Assets.xcassets */,
 				54521F5F23F98E7400F2AE02 /* LaunchScreen.storyboard */,
@@ -126,6 +144,65 @@
 				54521F7823F98E7500F2AE02 /* Info.plist */,
 			);
 			path = EliminateWastePhoneUITests;
+			sourceTree = "<group>";
+		};
+		54521F8423FA84B900F2AE02 /* InitialData */ = {
+			isa = PBXGroup;
+			children = (
+				54521F5423F98E7200F2AE02 /* AppDelegate.swift */,
+				54521F5623F98E7200F2AE02 /* SceneDelegate.swift */,
+				54521F5823F98E7200F2AE02 /* ViewController.swift */,
+				546DE56B23FA8BFE0021B55B /* CustomButton.swift */,
+			);
+			path = InitialData;
+			sourceTree = "<group>";
+		};
+		546DE56D23FA8C3A0021B55B /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				546DE57023FA8C7E0021B55B /* MainViewController.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		546DE57223FA8F730021B55B /* Urine */ = {
+			isa = PBXGroup;
+			children = (
+				546DE57923FA919C0021B55B /* Urine1stViewController.swift */,
+			);
+			path = Urine;
+			sourceTree = "<group>";
+		};
+		546DE57323FA8F870021B55B /* Fecal */ = {
+			isa = PBXGroup;
+			children = (
+				546DE58123FA91EE0021B55B /* Fecal1stViewController.swift */,
+			);
+			path = Fecal;
+			sourceTree = "<group>";
+		};
+		546DE57423FA8F900021B55B /* Injection */ = {
+			isa = PBXGroup;
+			children = (
+				546DE57D23FA91C30021B55B /* Injection1stViewController.swift */,
+			);
+			path = Injection;
+			sourceTree = "<group>";
+		};
+		546DE57523FA8F990021B55B /* Emergency */ = {
+			isa = PBXGroup;
+			children = (
+				546DE57F23FA91D90021B55B /* Emergency1stViewController.swift */,
+			);
+			path = Emergency;
+			sourceTree = "<group>";
+		};
+		546DE57623FA8FE70021B55B /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				546DE57723FA918D0021B55B /* Food1stViewController.swift */,
+			);
+			path = Food;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +336,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546DE56C23FA8BFE0021B55B /* CustomButton.swift in Sources */,
+				546DE57823FA918D0021B55B /* Food1stViewController.swift in Sources */,
 				54521F5923F98E7200F2AE02 /* ViewController.swift in Sources */,
+				546DE58223FA91EE0021B55B /* Fecal1stViewController.swift in Sources */,
+				546DE57A23FA919C0021B55B /* Urine1stViewController.swift in Sources */,
 				54521F5523F98E7200F2AE02 /* AppDelegate.swift in Sources */,
+				546DE57E23FA91C30021B55B /* Injection1stViewController.swift in Sources */,
 				54521F5723F98E7200F2AE02 /* SceneDelegate.swift in Sources */,
+				546DE58023FA91D90021B55B /* Emergency1stViewController.swift in Sources */,
+				546DE57123FA8C7E0021B55B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

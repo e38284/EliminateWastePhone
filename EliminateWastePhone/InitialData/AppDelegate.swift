@@ -14,7 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // MARK: - UINavigationBar
+        // Hide navigation bar button arrow
+        UINavigationBar.appearance().tintColor = UIColor(red: 51/255, green: 89/255, blue: 121/255, alpha: 1)
         return true
     }
 

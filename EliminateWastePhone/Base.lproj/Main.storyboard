@@ -1,24 +1,274 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sB6-Uc-p3Q">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Fecal1st-->
+        <scene sceneID="inB-eR-CDF">
+            <objects>
+                <viewController title="Fecal1st" id="aQm-Re-VF3" customClass="Fecal1stViewController" customModule="EliminateWastePhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="61Q-HB-37a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="e36-nh-Ono"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Fecal" id="XG6-N0-CAc"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ckc-B4-krs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1980" y="109"/>
+        </scene>
+        <!--Injection1st-->
+        <scene sceneID="miC-mD-Tyr">
+            <objects>
+                <viewController title="Injection1st" id="JHL-vL-vuN" customClass="Injection1stViewController" customModule="EliminateWastePhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4oH-Ts-8LC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="AnN-aA-L6e"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Injection" id="Yw7-Oe-Pr9"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zl7-MZ-5MF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1980" y="804"/>
+        </scene>
+        <!--Emergency1st-->
+        <scene sceneID="6Gi-SO-MM9">
+            <objects>
+                <viewController title="Emergency1st" id="Nr8-RJ-1t8" customClass="Emergency1stViewController" customModule="EliminateWastePhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9G3-GO-AmT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="uHY-Ne-fvl"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Emergency" id="Qf1-vX-hmH"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vDV-2l-0uf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1980" y="1497"/>
+        </scene>
+        <!--Food1st-->
+        <scene sceneID="4Bd-hO-3gX">
+            <objects>
+                <viewController title="Food1st" id="Sqd-y6-1qc" customClass="Food1stViewController" customModule="EliminateWastePhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hdz-3X-SQP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="won-Gn-lzf"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Food" id="sKW-jv-O12"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TMb-Wv-b2V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1980" y="-1264"/>
+        </scene>
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="EliminateWastePhone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01.Food" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w6g-0z-We1" userLabel="FoodImage">
+                                <rect key="frame" x="0.0" y="44" width="375" height="146.66666666666666"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="02.Urine" translatesAutoresizingMaskIntoConstraints="NO" id="dTy-gR-JRI" userLabel="UrineImage">
+                                <rect key="frame" x="0.0" y="190.66666666666663" width="375" height="147"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="03.Fecal" translatesAutoresizingMaskIntoConstraints="NO" id="sJw-f9-ojs" userLabel="FecalImage">
+                                <rect key="frame" x="0.0" y="337.66666666666669" width="375" height="146.66666666666669"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04.Injection" translatesAutoresizingMaskIntoConstraints="NO" id="yyR-aM-WtY" userLabel="InjectionImage">
+                                <rect key="frame" x="0.0" y="484.33333333333331" width="375" height="146.66666666666669"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="05.Emergency" translatesAutoresizingMaskIntoConstraints="NO" id="hyq-4H-Idi" userLabel="EmergencyImage">
+                                <rect key="frame" x="0.0" y="631" width="375" height="146.66666666666663"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ja-ft-xRs" userLabel="Between1View">
+                                <rect key="frame" x="0.0" y="189.66666666666666" width="375" height="2"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="Zxg-F1-r2f"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1AF-5m-et7" userLabel="Between2View">
+                                <rect key="frame" x="0.0" y="336.66666666666669" width="375" height="2"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="BvB-Kv-D1f"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J7s-HM-obG" userLabel="Between3View">
+                                <rect key="frame" x="0.0" y="483.33333333333331" width="375" height="2"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="1zk-LU-hGy"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEC-j7-HY6" userLabel="Between4View">
+                                <rect key="frame" x="0.0" y="630" width="375" height="2"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="781-1q-AdW"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qvp-es-kKk" userLabel="FoodButton">
+                                <rect key="frame" x="0.0" y="44" width="375" height="146.66666666666666"/>
+                                <connections>
+                                    <segue destination="Sqd-y6-1qc" kind="show" id="cE7-vI-0wz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaN-jF-rum" userLabel="UrineButton">
+                                <rect key="frame" x="0.0" y="190.66666666666663" width="375" height="147"/>
+                                <connections>
+                                    <segue destination="Axd-rc-kDy" kind="show" id="TR9-5M-Wbg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Roo-bl-ctC" userLabel="FecalButton">
+                                <rect key="frame" x="0.0" y="337.66666666666669" width="375" height="146.66666666666669"/>
+                                <connections>
+                                    <segue destination="aQm-Re-VF3" kind="show" id="MHX-0E-agg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7R7-ip-EPP" userLabel="InjectionButton">
+                                <rect key="frame" x="0.0" y="484.33333333333331" width="375" height="146.66666666666669"/>
+                                <connections>
+                                    <segue destination="JHL-vL-vuN" kind="show" id="BHk-ry-7ds"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeI-91-q4m" userLabel="EmergencyButton">
+                                <rect key="frame" x="0.0" y="632" width="375" height="146.66666666666663"/>
+                                <connections>
+                                    <segue destination="Nr8-RJ-1t8" kind="show" id="OK8-2W-Gdz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dTy-gR-JRI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0JZ-7C-g4X"/>
+                            <constraint firstItem="sJw-f9-ojs" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.199878" id="1Ha-x3-srl"/>
+                            <constraint firstItem="7R7-ip-EPP" firstAttribute="height" secondItem="yyR-aM-WtY" secondAttribute="height" id="40L-h0-Dgw"/>
+                            <constraint firstItem="J7s-HM-obG" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="4p6-Ui-EJb"/>
+                            <constraint firstItem="w6g-0z-We1" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="5yj-9H-l4A"/>
+                            <constraint firstItem="7R7-ip-EPP" firstAttribute="top" secondItem="sJw-f9-ojs" secondAttribute="bottom" id="6bn-jD-z6G"/>
+                            <constraint firstItem="Qvp-es-kKk" firstAttribute="height" secondItem="w6g-0z-We1" secondAttribute="height" id="7lX-kT-97p"/>
+                            <constraint firstItem="0ja-ft-xRs" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="89G-DI-XIN"/>
+                            <constraint firstItem="sJw-f9-ojs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B0Y-u4-M40"/>
+                            <constraint firstItem="1AF-5m-et7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CPG-dN-TUe"/>
+                            <constraint firstItem="Qvp-es-kKk" firstAttribute="width" secondItem="w6g-0z-We1" secondAttribute="width" id="D7X-70-D7U"/>
+                            <constraint firstItem="UaN-jF-rum" firstAttribute="height" secondItem="dTy-gR-JRI" secondAttribute="height" id="EGv-R0-BVp"/>
+                            <constraint firstItem="w6g-0z-We1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FeH-jX-PgA"/>
+                            <constraint firstItem="dTy-gR-JRI" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.199878" id="Fzj-vp-7gB"/>
+                            <constraint firstItem="zeI-91-q4m" firstAttribute="height" secondItem="hyq-4H-Idi" secondAttribute="height" id="GzS-jc-cSi"/>
+                            <constraint firstItem="zeI-91-q4m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Iqg-sD-3yc"/>
+                            <constraint firstItem="Roo-bl-ctC" firstAttribute="top" secondItem="dTy-gR-JRI" secondAttribute="bottom" id="NKs-k6-rAu"/>
+                            <constraint firstItem="hyq-4H-Idi" firstAttribute="top" secondItem="yyR-aM-WtY" secondAttribute="bottom" id="O1E-an-6K0"/>
+                            <constraint firstItem="Qvp-es-kKk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QQh-Xc-yXv"/>
+                            <constraint firstItem="1AF-5m-et7" firstAttribute="top" secondItem="dTy-gR-JRI" secondAttribute="bottom" constant="-1" id="RJ5-dm-u72"/>
+                            <constraint firstItem="w6g-0z-We1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UEQ-WT-k3O"/>
+                            <constraint firstItem="sJw-f9-ojs" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="UPV-pL-qDx"/>
+                            <constraint firstItem="J7s-HM-obG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UgI-Xk-fHk"/>
+                            <constraint firstItem="w6g-0z-We1" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.2" id="WgW-xB-czo"/>
+                            <constraint firstItem="dTy-gR-JRI" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="YYo-aw-e49"/>
+                            <constraint firstItem="sJw-f9-ojs" firstAttribute="top" secondItem="dTy-gR-JRI" secondAttribute="bottom" id="Ydy-Qe-rlX"/>
+                            <constraint firstItem="hyq-4H-Idi" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="Z9t-Yg-Lhh"/>
+                            <constraint firstItem="Qvp-es-kKk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bZy-1R-ERC"/>
+                            <constraint firstItem="UaN-jF-rum" firstAttribute="top" secondItem="w6g-0z-We1" secondAttribute="bottom" id="c6J-R8-K2G"/>
+                            <constraint firstItem="7R7-ip-EPP" firstAttribute="width" secondItem="yyR-aM-WtY" secondAttribute="width" id="cDg-Fg-BYR"/>
+                            <constraint firstItem="hEC-j7-HY6" firstAttribute="top" secondItem="yyR-aM-WtY" secondAttribute="bottom" constant="-1" id="cVV-wi-KBk"/>
+                            <constraint firstItem="UaN-jF-rum" firstAttribute="width" secondItem="dTy-gR-JRI" secondAttribute="width" id="dcH-GV-7dJ"/>
+                            <constraint firstItem="UaN-jF-rum" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eTb-Nl-v8K"/>
+                            <constraint firstItem="hyq-4H-Idi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fWR-q3-W3s"/>
+                            <constraint firstItem="yyR-aM-WtY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fbO-7g-uzS"/>
+                            <constraint firstItem="Roo-bl-ctC" firstAttribute="height" secondItem="dTy-gR-JRI" secondAttribute="height" id="fca-HE-Qc1"/>
+                            <constraint firstItem="0ja-ft-xRs" firstAttribute="top" secondItem="w6g-0z-We1" secondAttribute="bottom" constant="-1" id="fq2-08-pkW"/>
+                            <constraint firstItem="zeI-91-q4m" firstAttribute="width" secondItem="hyq-4H-Idi" secondAttribute="width" id="g27-QO-Hyx"/>
+                            <constraint firstItem="yyR-aM-WtY" firstAttribute="top" secondItem="sJw-f9-ojs" secondAttribute="bottom" id="gPO-OE-ngV"/>
+                            <constraint firstItem="J7s-HM-obG" firstAttribute="top" secondItem="sJw-f9-ojs" secondAttribute="bottom" constant="-1" id="h09-GI-cih"/>
+                            <constraint firstItem="0ja-ft-xRs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lcC-gh-dkg"/>
+                            <constraint firstItem="hyq-4H-Idi" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.199878" id="oHA-8b-A8K"/>
+                            <constraint firstItem="yyR-aM-WtY" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="pji-kh-hNf"/>
+                            <constraint firstItem="hEC-j7-HY6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pmc-K7-JTg"/>
+                            <constraint firstItem="hEC-j7-HY6" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="px9-Zh-Bj9"/>
+                            <constraint firstItem="yyR-aM-WtY" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.199878" id="qog-8h-aF1"/>
+                            <constraint firstItem="1AF-5m-et7" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="sPK-3s-7ys"/>
+                            <constraint firstItem="Roo-bl-ctC" firstAttribute="width" secondItem="dTy-gR-JRI" secondAttribute="width" id="tg1-FR-wVw"/>
+                            <constraint firstItem="zeI-91-q4m" firstAttribute="top" secondItem="hEC-j7-HY6" secondAttribute="bottom" id="uLI-Ra-Zrq"/>
+                            <constraint firstItem="7R7-ip-EPP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="usw-4m-sXb"/>
+                            <constraint firstItem="dTy-gR-JRI" firstAttribute="top" secondItem="w6g-0z-We1" secondAttribute="bottom" id="yPP-aU-NXi"/>
+                            <constraint firstItem="Roo-bl-ctC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ygY-Mc-UKp"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="b8K-pI-8iN"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="emergencyButton" destination="zeI-91-q4m" id="bCr-2o-dpd"/>
+                        <outlet property="fecalButton" destination="Roo-bl-ctC" id="FvV-P6-Vsh"/>
+                        <outlet property="foodButton" destination="Qvp-es-kKk" id="lfz-wQ-OZT"/>
+                        <outlet property="injectionButton" destination="7R7-ip-EPP" id="RLX-Pf-SQV"/>
+                        <outlet property="urineButton" destination="UaN-jF-rum" id="58S-wn-eKE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1035" y="110"/>
+        </scene>
+        <!--Urine1st-->
+        <scene sceneID="THj-U8-x4S">
+            <objects>
+                <viewController title="Urine1st" id="Axd-rc-kDy" customClass="Urine1stViewController" customModule="EliminateWastePhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XX9-Io-dLo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6x9-i6-uZI"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Urine" id="pbE-kq-1i9"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NkI-jA-53S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1980" y="-582"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cl1-zy-Y8N">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sB6-Uc-p3Q" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="O0h-gJ-ZXk">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0kw-XE-6se"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tu7-UL-7OR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="01.Food" width="1063" height="416"/>
+        <image name="02.Urine" width="1063" height="416"/>
+        <image name="03.Fecal" width="1063" height="416"/>
+        <image name="04.Injection" width="1063" height="416"/>
+        <image name="05.Emergency" width="1063" height="416"/>
+    </resources>
 </document>
