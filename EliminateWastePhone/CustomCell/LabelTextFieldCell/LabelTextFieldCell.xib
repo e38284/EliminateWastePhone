@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="LabelTextFieldCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="LabelTextFieldCell" id="utf-Ek-nmG" userLabel="LabelTextFieldCell" customClass="LabelTextFieldCell" customModule="EliminateWastePhone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="utf-Ek-nmG" id="uTw-bf-ZsI">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a7t-lI-BQs" userLabel="ContentView">
+                        <rect key="frame" x="19" y="0.0" width="337.5" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BodyWeight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZE-C6-99t">
+                                <rect key="frame" x="0.0" y="0.0" width="135" height="44"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.34901960780000002" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kg" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xf2-bZ-9dx">
+                                <rect key="frame" x="286.5" y="0.0" width="51" height="44"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="14"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.34901960780000002" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wwW-tT-i40">
+                                <rect key="frame" x="118" y="12" width="168.5" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="5.0">
+                                        <attributes>
+                                            <color key="NSColor" red="0.20000000000000001" green="0.34901960780000002" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="HiraMaruProN-W4"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xf2-bZ-9dx" firstAttribute="centerY" secondItem="a7t-lI-BQs" secondAttribute="centerY" id="0JK-Ca-hPJ"/>
+                            <constraint firstItem="xf2-bZ-9dx" firstAttribute="leading" secondItem="wwW-tT-i40" secondAttribute="trailing" id="7T1-7M-aFP"/>
+                            <constraint firstItem="xf2-bZ-9dx" firstAttribute="width" secondItem="a7t-lI-BQs" secondAttribute="width" multiplier="0.15" id="Afo-gS-zds"/>
+                            <constraint firstItem="HZE-C6-99t" firstAttribute="height" secondItem="a7t-lI-BQs" secondAttribute="height" id="FWS-0J-75a"/>
+                            <constraint firstItem="wwW-tT-i40" firstAttribute="width" secondItem="a7t-lI-BQs" secondAttribute="width" multiplier="0.5" constant="-0.25" id="KgA-ch-T4h"/>
+                            <constraint firstAttribute="trailing" secondItem="xf2-bZ-9dx" secondAttribute="trailing" id="O5z-Ac-vJH"/>
+                            <constraint firstItem="HZE-C6-99t" firstAttribute="leading" secondItem="a7t-lI-BQs" secondAttribute="leading" id="UJl-IC-HOT"/>
+                            <constraint firstItem="wwW-tT-i40" firstAttribute="centerY" secondItem="a7t-lI-BQs" secondAttribute="centerY" id="aw8-8v-OFb"/>
+                            <constraint firstItem="xf2-bZ-9dx" firstAttribute="height" secondItem="a7t-lI-BQs" secondAttribute="height" id="iau-jq-sae"/>
+                            <constraint firstItem="HZE-C6-99t" firstAttribute="centerY" secondItem="a7t-lI-BQs" secondAttribute="centerY" id="il1-4R-yQI"/>
+                            <constraint firstItem="HZE-C6-99t" firstAttribute="width" secondItem="a7t-lI-BQs" secondAttribute="width" multiplier="0.4" id="rUm-Oj-vMc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="a7t-lI-BQs" firstAttribute="centerX" secondItem="uTw-bf-ZsI" secondAttribute="centerX" id="0fD-c5-JhL"/>
+                    <constraint firstItem="a7t-lI-BQs" firstAttribute="height" secondItem="uTw-bf-ZsI" secondAttribute="height" id="9dh-yj-GGb"/>
+                    <constraint firstItem="a7t-lI-BQs" firstAttribute="width" secondItem="uTw-bf-ZsI" secondAttribute="width" multiplier="0.9" id="qck-fN-69F"/>
+                    <constraint firstItem="a7t-lI-BQs" firstAttribute="centerY" secondItem="uTw-bf-ZsI" secondAttribute="centerY" id="z5b-1F-KaF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="r0W-17-pNM"/>
+            <connections>
+                <outlet property="firstLabel" destination="HZE-C6-99t" id="P1N-1q-bqf"/>
+                <outlet property="firstTextField" destination="wwW-tT-i40" id="Drq-1z-vSt"/>
+                <outlet property="secondLabel" destination="xf2-bZ-9dx" id="l5y-uD-49S"/>
+            </connections>
+            <point key="canvasLocation" x="177.536231884058" y="109.82142857142857"/>
+        </tableViewCell>
+    </objects>
+</document>

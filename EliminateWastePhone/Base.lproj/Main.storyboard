@@ -65,15 +65,34 @@
                     <view key="view" contentMode="scaleToFill" id="hdz-3X-SQP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9Wb-pV-HRn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Sqd-y6-1qc" id="CnD-D3-zSG"/>
+                                    <outlet property="delegate" destination="Sqd-y6-1qc" id="Qd9-BS-uiT"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="9Wb-pV-HRn" firstAttribute="centerY" secondItem="hdz-3X-SQP" secondAttribute="centerY" id="2ve-rg-dSx"/>
+                            <constraint firstItem="9Wb-pV-HRn" firstAttribute="centerX" secondItem="hdz-3X-SQP" secondAttribute="centerX" id="gOh-fG-pcA"/>
+                            <constraint firstItem="9Wb-pV-HRn" firstAttribute="width" secondItem="hdz-3X-SQP" secondAttribute="width" id="h5p-kI-CK5"/>
+                            <constraint firstItem="9Wb-pV-HRn" firstAttribute="height" secondItem="hdz-3X-SQP" secondAttribute="height" id="lRG-7E-jnX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="won-Gn-lzf"/>
                     </view>
                     <navigationItem key="navigationItem" title="Food" id="sKW-jv-O12"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="foodTableView" destination="9Wb-pV-HRn" id="NKy-MY-4MP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TMb-Wv-b2V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1980" y="-1264"/>
+            <point key="canvasLocation" x="1980" y="-1264.2857142857144"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">

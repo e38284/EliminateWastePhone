@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4E38755D318CD20B614D53 /* Pods_EliminateWastePhone_EliminateWastePhoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ADAB1209D5797E7C1F4C97 /* Pods_EliminateWastePhone_EliminateWastePhoneUITests.framework */; };
+		2FB337B8D52194B08AA89AF6 /* Pods_EliminateWastePhoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F33501542C8FFD0F3F95484 /* Pods_EliminateWastePhoneTests.framework */; };
+		54089DF5240D1390009043B0 /* LabelTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54089DF3240D1390009043B0 /* LabelTextFieldCell.swift */; };
+		54089DF6240D1390009043B0 /* LabelTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54089DF4240D1390009043B0 /* LabelTextFieldCell.xib */; };
+		54089DF9240D13C6009043B0 /* LabelSegmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54089DF7240D13C6009043B0 /* LabelSegmentCell.swift */; };
+		54089DFA240D13C6009043B0 /* LabelSegmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54089DF8240D13C6009043B0 /* LabelSegmentCell.xib */; };
 		54521F5523F98E7200F2AE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54521F5423F98E7200F2AE02 /* AppDelegate.swift */; };
 		54521F5723F98E7200F2AE02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54521F5623F98E7200F2AE02 /* SceneDelegate.swift */; };
 		54521F5923F98E7200F2AE02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54521F5823F98E7200F2AE02 /* ViewController.swift */; };
@@ -22,6 +28,7 @@
 		546DE57E23FA91C30021B55B /* Injection1stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DE57D23FA91C30021B55B /* Injection1stViewController.swift */; };
 		546DE58023FA91D90021B55B /* Emergency1stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DE57F23FA91D90021B55B /* Emergency1stViewController.swift */; };
 		546DE58223FA91EE0021B55B /* Fecal1stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DE58123FA91EE0021B55B /* Fecal1stViewController.swift */; };
+		B7DF110825D15F227D47E753 /* Pods_EliminateWastePhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F745992D4C3F2FF92DF0A4E8 /* Pods_EliminateWastePhone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F33501542C8FFD0F3F95484 /* Pods_EliminateWastePhoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EliminateWastePhoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54089DF3240D1390009043B0 /* LabelTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTextFieldCell.swift; sourceTree = "<group>"; };
+		54089DF4240D1390009043B0 /* LabelTextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelTextFieldCell.xib; sourceTree = "<group>"; };
+		54089DF7240D13C6009043B0 /* LabelSegmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelSegmentCell.swift; sourceTree = "<group>"; };
+		54089DF8240D13C6009043B0 /* LabelSegmentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelSegmentCell.xib; sourceTree = "<group>"; };
 		54521F5123F98E7200F2AE02 /* EliminateWastePhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EliminateWastePhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54521F5423F98E7200F2AE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54521F5623F98E7200F2AE02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +75,14 @@
 		546DE57D23FA91C30021B55B /* Injection1stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection1stViewController.swift; sourceTree = "<group>"; };
 		546DE57F23FA91D90021B55B /* Emergency1stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emergency1stViewController.swift; sourceTree = "<group>"; };
 		546DE58123FA91EE0021B55B /* Fecal1stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fecal1stViewController.swift; sourceTree = "<group>"; };
+		62DF2FF372CE8DF0D7FD975E /* Pods-EliminateWastePhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EliminateWastePhone.release.xcconfig"; path = "Target Support Files/Pods-EliminateWastePhone/Pods-EliminateWastePhone.release.xcconfig"; sourceTree = "<group>"; };
+		6BAA3BB923BC17A54C2862AC /* Pods-EliminateWastePhoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EliminateWastePhoneTests.debug.xcconfig"; path = "Target Support Files/Pods-EliminateWastePhoneTests/Pods-EliminateWastePhoneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1539551A3D82E46A3CFB271 /* Pods-EliminateWastePhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EliminateWastePhone.debug.xcconfig"; path = "Target Support Files/Pods-EliminateWastePhone/Pods-EliminateWastePhone.debug.xcconfig"; sourceTree = "<group>"; };
+		D4AABFD6CAD327C810419686 /* Pods-EliminateWastePhone-EliminateWastePhoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EliminateWastePhone-EliminateWastePhoneUITests.debug.xcconfig"; path = "Target Support Files/Pods-EliminateWastePhone-EliminateWastePhoneUITests/Pods-EliminateWastePhone-EliminateWastePhoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D793676750972B3177FE8545 /* Pods-EliminateWastePhoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EliminateWastePhoneTests.release.xcconfig"; path = "Target Support Files/Pods-EliminateWastePhoneTests/Pods-EliminateWastePhoneTests.release.xcconfig"; sourceTree = "<group>"; };
+		DEA7C51BF243F3B32C947B44 /* Pods-EliminateWastePhone-EliminateWastePhoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EliminateWastePhone-EliminateWastePhoneUITests.release.xcconfig"; path = "Target Support Files/Pods-EliminateWastePhone-EliminateWastePhoneUITests/Pods-EliminateWastePhone-EliminateWastePhoneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E1ADAB1209D5797E7C1F4C97 /* Pods_EliminateWastePhone_EliminateWastePhoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EliminateWastePhone_EliminateWastePhoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F745992D4C3F2FF92DF0A4E8 /* Pods_EliminateWastePhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EliminateWastePhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7DF110825D15F227D47E753 /* Pods_EliminateWastePhone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB337B8D52194B08AA89AF6 /* Pods_EliminateWastePhoneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +106,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4E38755D318CD20B614D53 /* Pods_EliminateWastePhone_EliminateWastePhoneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D0AEEDFEBE58ABEBA0B79A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1539551A3D82E46A3CFB271 /* Pods-EliminateWastePhone.debug.xcconfig */,
+				62DF2FF372CE8DF0D7FD975E /* Pods-EliminateWastePhone.release.xcconfig */,
+				D4AABFD6CAD327C810419686 /* Pods-EliminateWastePhone-EliminateWastePhoneUITests.debug.xcconfig */,
+				DEA7C51BF243F3B32C947B44 /* Pods-EliminateWastePhone-EliminateWastePhoneUITests.release.xcconfig */,
+				6BAA3BB923BC17A54C2862AC /* Pods-EliminateWastePhoneTests.debug.xcconfig */,
+				D793676750972B3177FE8545 /* Pods-EliminateWastePhoneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54089DF2240D1327009043B0 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				54089DFB240D573D009043B0 /* LabelSegmentCell */,
+				54089DFC240D5751009043B0 /* LabelTextFieldCell */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		54089DFB240D573D009043B0 /* LabelSegmentCell */ = {
+			isa = PBXGroup;
+			children = (
+				54089DF7240D13C6009043B0 /* LabelSegmentCell.swift */,
+				54089DF8240D13C6009043B0 /* LabelSegmentCell.xib */,
+			);
+			path = LabelSegmentCell;
+			sourceTree = "<group>";
+		};
+		54089DFC240D5751009043B0 /* LabelTextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				54089DF3240D1390009043B0 /* LabelTextFieldCell.swift */,
+				54089DF4240D1390009043B0 /* LabelTextFieldCell.xib */,
+			);
+			path = LabelTextFieldCell;
+			sourceTree = "<group>";
+		};
 		54521F4823F98E7100F2AE02 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +160,8 @@
 				54521F6A23F98E7400F2AE02 /* EliminateWastePhoneTests */,
 				54521F7523F98E7500F2AE02 /* EliminateWastePhoneUITests */,
 				54521F5223F98E7200F2AE02 /* Products */,
+				2D0AEEDFEBE58ABEBA0B79A8 /* Pods */,
+				BF10EEE27CCE9DF4368EBF9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,12 +179,13 @@
 			isa = PBXGroup;
 			children = (
 				54521F8423FA84B900F2AE02 /* InitialData */,
-				546DE56D23FA8C3A0021B55B /* MainPage */,
-				546DE57623FA8FE70021B55B /* Food */,
-				546DE57223FA8F730021B55B /* Urine */,
-				546DE57323FA8F870021B55B /* Fecal */,
-				546DE57423FA8F900021B55B /* Injection */,
-				546DE57523FA8F990021B55B /* Emergency */,
+				54089DF2240D1327009043B0 /* CustomCell */,
+				546DE56D23FA8C3A0021B55B /* 00.MainPage */,
+				546DE57623FA8FE70021B55B /* 01.Food */,
+				546DE57223FA8F730021B55B /* 02.Urine */,
+				546DE57323FA8F870021B55B /* 03.Fecal */,
+				546DE57423FA8F900021B55B /* 04.Injection */,
+				546DE57523FA8F990021B55B /* 05.Emergency */,
 				54521F5A23F98E7200F2AE02 /* Main.storyboard */,
 				54521F5D23F98E7400F2AE02 /* Assets.xcassets */,
 				54521F5F23F98E7400F2AE02 /* LaunchScreen.storyboard */,
@@ -157,52 +223,62 @@
 			path = InitialData;
 			sourceTree = "<group>";
 		};
-		546DE56D23FA8C3A0021B55B /* MainPage */ = {
+		546DE56D23FA8C3A0021B55B /* 00.MainPage */ = {
 			isa = PBXGroup;
 			children = (
 				546DE57023FA8C7E0021B55B /* MainViewController.swift */,
 			);
-			path = MainPage;
+			path = 00.MainPage;
 			sourceTree = "<group>";
 		};
-		546DE57223FA8F730021B55B /* Urine */ = {
+		546DE57223FA8F730021B55B /* 02.Urine */ = {
 			isa = PBXGroup;
 			children = (
 				546DE57923FA919C0021B55B /* Urine1stViewController.swift */,
 			);
-			path = Urine;
+			path = 02.Urine;
 			sourceTree = "<group>";
 		};
-		546DE57323FA8F870021B55B /* Fecal */ = {
+		546DE57323FA8F870021B55B /* 03.Fecal */ = {
 			isa = PBXGroup;
 			children = (
 				546DE58123FA91EE0021B55B /* Fecal1stViewController.swift */,
 			);
-			path = Fecal;
+			path = 03.Fecal;
 			sourceTree = "<group>";
 		};
-		546DE57423FA8F900021B55B /* Injection */ = {
+		546DE57423FA8F900021B55B /* 04.Injection */ = {
 			isa = PBXGroup;
 			children = (
 				546DE57D23FA91C30021B55B /* Injection1stViewController.swift */,
 			);
-			path = Injection;
+			path = 04.Injection;
 			sourceTree = "<group>";
 		};
-		546DE57523FA8F990021B55B /* Emergency */ = {
+		546DE57523FA8F990021B55B /* 05.Emergency */ = {
 			isa = PBXGroup;
 			children = (
 				546DE57F23FA91D90021B55B /* Emergency1stViewController.swift */,
 			);
-			path = Emergency;
+			path = 05.Emergency;
 			sourceTree = "<group>";
 		};
-		546DE57623FA8FE70021B55B /* Food */ = {
+		546DE57623FA8FE70021B55B /* 01.Food */ = {
 			isa = PBXGroup;
 			children = (
 				546DE57723FA918D0021B55B /* Food1stViewController.swift */,
 			);
-			path = Food;
+			path = 01.Food;
+			sourceTree = "<group>";
+		};
+		BF10EEE27CCE9DF4368EBF9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F745992D4C3F2FF92DF0A4E8 /* Pods_EliminateWastePhone.framework */,
+				E1ADAB1209D5797E7C1F4C97 /* Pods_EliminateWastePhone_EliminateWastePhoneUITests.framework */,
+				0F33501542C8FFD0F3F95484 /* Pods_EliminateWastePhoneTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +288,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54521F7B23F98E7500F2AE02 /* Build configuration list for PBXNativeTarget "EliminateWastePhone" */;
 			buildPhases = (
+				9FB74218D972068292579660 /* [CP] Check Pods Manifest.lock */,
 				54521F4D23F98E7200F2AE02 /* Sources */,
 				54521F4E23F98E7200F2AE02 /* Frameworks */,
 				54521F4F23F98E7200F2AE02 /* Resources */,
@@ -221,6 +298,8 @@
 			dependencies = (
 			);
 			name = EliminateWastePhone;
+			packageProductDependencies = (
+			);
 			productName = EliminateWastePhone;
 			productReference = 54521F5123F98E7200F2AE02 /* EliminateWastePhone.app */;
 			productType = "com.apple.product-type.application";
@@ -229,6 +308,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54521F7E23F98E7500F2AE02 /* Build configuration list for PBXNativeTarget "EliminateWastePhoneTests" */;
 			buildPhases = (
+				BD6D61DE0A7AAB34F465A5CA /* [CP] Check Pods Manifest.lock */,
 				54521F6323F98E7400F2AE02 /* Sources */,
 				54521F6423F98E7400F2AE02 /* Frameworks */,
 				54521F6523F98E7400F2AE02 /* Resources */,
@@ -247,6 +327,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54521F8123F98E7500F2AE02 /* Build configuration list for PBXNativeTarget "EliminateWastePhoneUITests" */;
 			buildPhases = (
+				A6669C458FBFFFC352ED5F64 /* [CP] Check Pods Manifest.lock */,
 				54521F6E23F98E7500F2AE02 /* Sources */,
 				54521F6F23F98E7500F2AE02 /* Frameworks */,
 				54521F7023F98E7500F2AE02 /* Resources */,
@@ -293,6 +374,8 @@
 				Base,
 			);
 			mainGroup = 54521F4823F98E7100F2AE02;
+			packageReferences = (
+			);
 			productRefGroup = 54521F5223F98E7200F2AE02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -311,7 +394,9 @@
 			files = (
 				54521F6123F98E7400F2AE02 /* LaunchScreen.storyboard in Resources */,
 				54521F5E23F98E7400F2AE02 /* Assets.xcassets in Resources */,
+				54089DFA240D13C6009043B0 /* LabelSegmentCell.xib in Resources */,
 				54521F5C23F98E7200F2AE02 /* Main.storyboard in Resources */,
+				54089DF6240D1390009043B0 /* LabelTextFieldCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +416,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9FB74218D972068292579660 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EliminateWastePhone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6669C458FBFFFC352ED5F64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EliminateWastePhone-EliminateWastePhoneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD6D61DE0A7AAB34F465A5CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EliminateWastePhoneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		54521F4D23F98E7200F2AE02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -339,10 +493,12 @@
 				546DE56C23FA8BFE0021B55B /* CustomButton.swift in Sources */,
 				546DE57823FA918D0021B55B /* Food1stViewController.swift in Sources */,
 				54521F5923F98E7200F2AE02 /* ViewController.swift in Sources */,
+				54089DF9240D13C6009043B0 /* LabelSegmentCell.swift in Sources */,
 				546DE58223FA91EE0021B55B /* Fecal1stViewController.swift in Sources */,
 				546DE57A23FA919C0021B55B /* Urine1stViewController.swift in Sources */,
 				54521F5523F98E7200F2AE02 /* AppDelegate.swift in Sources */,
 				546DE57E23FA91C30021B55B /* Injection1stViewController.swift in Sources */,
+				54089DF5240D1390009043B0 /* LabelTextFieldCell.swift in Sources */,
 				54521F5723F98E7200F2AE02 /* SceneDelegate.swift in Sources */,
 				546DE58023FA91D90021B55B /* Emergency1stViewController.swift in Sources */,
 				546DE57123FA8C7E0021B55B /* MainViewController.swift in Sources */,
@@ -516,6 +672,7 @@
 		};
 		54521F7C23F98E7500F2AE02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1539551A3D82E46A3CFB271 /* Pods-EliminateWastePhone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +691,7 @@
 		};
 		54521F7D23F98E7500F2AE02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DF2FF372CE8DF0D7FD975E /* Pods-EliminateWastePhone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +710,7 @@
 		};
 		54521F7F23F98E7500F2AE02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BAA3BB923BC17A54C2862AC /* Pods-EliminateWastePhoneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -574,6 +733,7 @@
 		};
 		54521F8023F98E7500F2AE02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D793676750972B3177FE8545 /* Pods-EliminateWastePhoneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -596,6 +756,7 @@
 		};
 		54521F8223F98E7500F2AE02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AABFD6CAD327C810419686 /* Pods-EliminateWastePhone-EliminateWastePhoneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -616,6 +777,7 @@
 		};
 		54521F8323F98E7500F2AE02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA7C51BF243F3B32C947B44 /* Pods-EliminateWastePhone-EliminateWastePhoneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

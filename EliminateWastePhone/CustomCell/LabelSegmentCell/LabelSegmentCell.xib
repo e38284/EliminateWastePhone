@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="LabelSegmentCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="LabelSegmentCell" id="kVe-HK-7u9" userLabel="LabelSegmentCell" customClass="LabelSegmentCell" customModule="EliminateWastePhone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kVe-HK-7u9" id="y6T-L4-azM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFS-TK-WJn" userLabel="ContentView">
+                        <rect key="frame" x="19" y="0.0" width="337.5" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Species" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWC-Dn-6yK">
+                                <rect key="frame" x="0.0" y="0.0" width="135" height="44"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.34901960780000002" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="e3v-Ym-ZyC">
+                                <rect key="frame" x="135" y="6.5" width="202.5" height="32"/>
+                                <segments>
+                                    <segment title="Canine"/>
+                                    <segment title="Feline"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="e3v-Ym-ZyC" firstAttribute="width" secondItem="SFS-TK-WJn" secondAttribute="width" multiplier="0.6" id="N9x-Ie-USf"/>
+                            <constraint firstItem="NWC-Dn-6yK" firstAttribute="leading" secondItem="SFS-TK-WJn" secondAttribute="leading" id="Qqx-s7-lcX"/>
+                            <constraint firstItem="NWC-Dn-6yK" firstAttribute="centerY" secondItem="SFS-TK-WJn" secondAttribute="centerY" id="bSl-7e-ZGH"/>
+                            <constraint firstItem="NWC-Dn-6yK" firstAttribute="width" secondItem="SFS-TK-WJn" secondAttribute="width" multiplier="0.4" id="f2s-aV-WlM"/>
+                            <constraint firstItem="NWC-Dn-6yK" firstAttribute="height" secondItem="SFS-TK-WJn" secondAttribute="height" id="o0Q-DP-JbK"/>
+                            <constraint firstAttribute="trailing" secondItem="e3v-Ym-ZyC" secondAttribute="trailing" id="rY5-6k-eNl"/>
+                            <constraint firstItem="e3v-Ym-ZyC" firstAttribute="centerY" secondItem="SFS-TK-WJn" secondAttribute="centerY" id="xrd-oB-kXd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="SFS-TK-WJn" firstAttribute="width" secondItem="y6T-L4-azM" secondAttribute="width" multiplier="0.9" id="Gcp-cj-OPh"/>
+                    <constraint firstItem="SFS-TK-WJn" firstAttribute="centerY" secondItem="y6T-L4-azM" secondAttribute="centerY" id="HVz-x0-a2G"/>
+                    <constraint firstItem="SFS-TK-WJn" firstAttribute="height" secondItem="y6T-L4-azM" secondAttribute="height" id="Pkt-Mp-QCQ"/>
+                    <constraint firstItem="SFS-TK-WJn" firstAttribute="centerX" secondItem="y6T-L4-azM" secondAttribute="centerX" id="ze2-Hl-U1a"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="089-Lp-MMW"/>
+            <connections>
+                <outlet property="firstLabel" destination="NWC-Dn-6yK" id="e0L-7e-GSf"/>
+                <outlet property="firstSegment" destination="e3v-Ym-ZyC" id="iyl-QG-jbs"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="74"/>
+        </tableViewCell>
+    </objects>
+</document>

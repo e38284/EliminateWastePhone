@@ -9,6 +9,7 @@
 import UIKit
 
 // MARK: - UISearchBar
+// Get TextField in UISearchBar
 extension UISearchBar {
     var textField: UITextField? {
         if #available(iOS 13.0, *) {
@@ -18,12 +19,14 @@ extension UISearchBar {
         }
     }
 }
+// Get accessories in TextField
 extension UITextField {
-    //虫眼鏡
+    //Magnifying glass
     var lupeImageView: UIImageView? {
         return leftView as? UIImageView
     }
 }
+//Change RenderingMode of View to alwaysTemplate
 extension UIImageView {
   func becomeImageAlwaysTemplate() {
     image = image?.withRenderingMode(.alwaysTemplate)
